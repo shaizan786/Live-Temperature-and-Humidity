@@ -1,0 +1,12 @@
+/* Example: Renaming Tailwind classes in index.css */
+.tw-card {
+  @apply bg-gray-800 p-6 rounded-2xl shadow-lg;
+}
+
+.tw-card-title {
+  @apply text-lg font-semibold mb-2;
+}
+
+.tw-card-value {
+  @apply text-3xl font-bold;
+}
